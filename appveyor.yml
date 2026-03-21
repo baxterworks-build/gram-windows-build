@@ -8,7 +8,7 @@ install:
   - cargo -vV
   
  build_script:
-      ps: >-
+    ps: >-
         git clone --depth=1 https://codeberg.org/GramEditor/gram
         cd gram
         cargo build --release
