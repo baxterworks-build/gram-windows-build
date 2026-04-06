@@ -17,4 +17,4 @@ install:
   
 build_script:
     - git clone --depth=1 https://codeberg.org/voltagex/gram
-    - cd gram && cargo fetch
+    - cd gram && cargo build --release
