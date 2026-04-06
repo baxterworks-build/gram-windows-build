@@ -8,5 +8,5 @@ install:
     - cargo -vV
   
 build_script:
-    - git clone --depth=1 https://codeberg.org/GramEditor/gram
+    - git clone --depth=1 https://codeberg.org/voltagex/gram
     - cd gram && cargo build --release
